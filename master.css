@@ -1,0 +1,514 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 100;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+
+
+
+#header_wrap #header {width:100%; height: 100px; margin:0 auto; overflow: hidden; position: relative;}
+#header .logo {width:100px; height: 50px; float:left; margin-top: 5px; margin-right: auto; margin-left: 60px;}
+
+
+nav{
+  z-index: 200;
+  width: 1200px;
+  display: block;
+  justify-content: right;
+    float:right; position: fixed; float: left;}
+
+nav > ul > li > a{color: white;}
+nav > ul > li > a:hover{color: #CA3C32;}
+
+header nav ul{
+  margin: 0px;
+  display: block;
+  justify-content: space-between;
+  width: 00px;
+  height: 40px;
+  float:right;
+
+}
+header nav ul li{
+  display: flex;
+  width: 100px;
+  justify-content: right;
+  align-items: right;
+}
+header nav ul li a{
+  color: white;
+  font-size: 1em;
+  font-weight: 100;
+    font-family: 'GmarketSansMedium';
+  letter-spacing: 0.em;
+    line-height: 160%;
+
+}
+section{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('img/main.png');
+    background-size: cover;
+
+}
+.bar{
+  color: white;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.main_tit{
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px
+}
+
+
+
+
+
+
+
+
+/*서브 레이아웃 공통*/
+
+#sub_contents_wrap {width:100%;}
+#sub_contents_wrap #sub_contents {width:1200px; margin:0 auto;
+    margin-top:20px; margin-bottom:20px;
+    padding-top: 20px; padding-bottom: 20px;}
+
+#sub_contents .sub_title {font-size:24px; line-height:40px; color:#000; margin-bottom: 20px;}
+#sub_contents .contents {width:100%; min-height:700px; background:;}
+
+
+
+/*서브1 페이지*/
+
+#sub01_bg_wrap {width:100%; height:100%;
+    background-image:url(img/sub1_bg.png);
+    position: absolute;
+    background-size: cover;
+    }
+#sub01_bg #sub01_bg {width:100%;
+    margin:0 auto; height:100%;}
+
+
+.sub01main_tit{
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 230px
+}
+
+
+
+
+/*서브2 페이지*/
+
+#sub02_bg_wrap {width:100%; height:100%;
+    background-image:url(img/sub2_bg3.png);
+    position: absolute;
+    background-size: cover;
+    }
+#sub02_bg #sub02_bg {width:100%;
+    margin:0 auto; height:100%;}
+
+
+.sub02main_tit{
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -15px;
+    padding-bottom: 10px;
+}
+
+
+
+/*서브3 페이지*/
+
+#sub03_bg_wrap {width:100%; height:100%;
+    background-image:url(img/sub3_bg3.png);
+    position: absolute;
+    background-size: cover;
+    }
+#sub03_bg #sub02_bg {width:100%;
+    margin:0 auto; height:100%;}
+
+
+.sub03main_tit{
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+    margin-bottom: 440px;
+}
+
+#sub3_contents_wrap {width:213px; position: absolute; z-index: 300;}
+#sub3_contents_wrap #sub3_contents  {width: 100%; float: right; margin-right:500px;
+margin-top:40px;
+
+}
+
+
+#sub3_contents2_wrap {width:213px; position: absolute; z-index: 300;}
+#sub3_contents2_wrap #sub3_contents2  {width: 100%; float: right; margin-right:250px;
+margin-top:40px;
+
+}
+
+
+#sub3_contents3_wrap {width:213px; position: absolute; z-index: 500;}
+#sub3_contents3_wrap #sub3_contents3  {width: 100%; float: right; margin-right:0px;
+margin-top:40px;
+
+}
+
+
+#sub3_contents4_wrap {width:213px; position: absolute; z-index: 300;}
+#sub3_contents4_wrap #sub3_contents4  {width: 100%; float: right; margin-right:-250px;
+margin-top:40px;
+
+}
+
+
+#sub3_contents5_wrap {width:213px; position: absolute; z-index: 300;}
+#sub3_contents5_wrap #sub3_contents5  {width: 100%; float: right; margin-right:-500px;
+margin-top:40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*서브4 페이지*/
+
+#sub04_bg_wrap {width:100%; height:100%;
+    background-image:url(img/sub4_bg.png);
+    position: absolute;
+    background-size: cover;
+    }
+#sub04_bg #sub02_bg {width:100%;
+    margin:0 auto; height:100%;}
+
+
+.sub04main_tit{
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20px;
+    margin-bottom: 450px;
+}
+
+#sub4_contents_wrap {width:213px; position: absolute; z-index: 300; }
+#sub4_contents_wrap #sub4_contents  {width: 100%; float: right; margin-right:410px;
+margin-top:40px;
+
+}
+
+
+#sub4_contents2_wrap {width:213px; position: absolute; z-index: 300;}
+#sub4_contents2_wrap #sub4_contents2  {width: 100%; float: right; margin-right:140px;
+margin-top:40px;
+
+}
+
+
+#sub4_contents3_wrap {width:213px; position: absolute; z-index: 300;}
+#sub4_contents3_wrap #sub4_contents3  {width: 100%; float: right; margin-right:-130px;
+margin-top:40px;
+
+}
+
+
+#sub4_contents4_wrap {width:213px; position: absolute; z-index: 300;}
+#sub4_contents4_wrap #sub4_contents4  {width: 100%; float: right; margin-right:-400px;
+margin-top:40px;
+
+}
+
+
+
+
+
+#footer_wrap {
+    width:100%; height:70px;
+    border-top:3px; margin-top:700px; z-index: 200;
+}
+#footer_wrap #footer {
+    width:1200px; height:70px; margin:0 auto; padding-top:20px; color: white;
+    font-size: 0.3em;
+}
+
+#footer p {text-align: center; line-height:10px; margin-right:10px;}
+
+
+
+/*---포트폴리오 서브페이지---*/
+
+
+/*서브 5페이지*/
+
+#sub05_contents_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub05_contents_wrap
+
+#sub05_contents {width: 100%; height:2300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+
+
+#sub05_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub05_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top: 100px; margin-bottom:50px; background-color:#;}
+
+
+/*전후 버튼*/
+
+#sub05_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-bottom: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub05_next {width:325px; height:74px; float: inherit; margin-left:850px; margin-right:0px; margin-bottom:0px; background-color:#;}
+
+
+#sub05_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: -74px; background-color:; display: flex; background-color:#303030; }
+
+#sub05_back {width:290px; height:74px; float: inherit; margin-left:570px; margin-bottom:0px; background-color:#; position: relative;}
+
+
+
+
+/*서브 6페이지*/
+
+#sub06_contents_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub06_contents_wrap
+
+#sub06_contents {width: 100%; height:3900px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+
+#sub06_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub06_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top:100px; margin-bottom:50px; background-color:#303030;}
+
+
+/*전후 버튼*/
+
+#sub06_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   paddig-top: 5000px; background-color:; display: flex; background-color:#303030;}
+
+#sub06_next {width:325px; height:74px; float: inherit; margin-left:810px; margin-right:0px; margin-bottom:0px; background-color:#303030;}
+
+
+#sub06_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: -74px; background-color:; display: flex; background-color:#303030; }
+
+#sub06_back {width:290px; height:74px; float: inherit; margin-left:400px; margin-bottom:70px; background-color:#303030; position: relative;}
+
+
+
+/*서브 7페이지*/
+
+#sub07_contents_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub07_contents {width: 100%; height:1550px; float: right; float: right; margin-top:50px; text-align: ;  }
+
+
+#sub07_contents2_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub07_contents2 {width: 100%; height:170px; float: right; float: right; margin-top:50px; text-align: ;  }
+
+
+
+
+
+/*동영상*/
+
+#sub07_contents3_wrap {width:100%; overflow: hidden; margin: 0 auto; position: relative; display: flex;
+    align-items: left; justify-content: space-between; background-color:#303030; justify-content: center; }
+}
+
+#sub07_contents3 { float: left; margin-left:0px; background-color:#303030; justify-content: center; margin-bottom: 150px; }
+
+/*x버튼*/
+
+#sub07_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;  }
+
+#sub07_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top:70px; margin-bottom:50px; background-color:#303030;}
+
+/*전후 버튼*/
+
+#sub07_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub07_next {width:325px; height:74px; float: inherit; margin-left:790px; margin-right:0px; margin-top:150px; background-color:#303030;}
+
+
+#sub07_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: -74px; background-color:; display: flex; background-color:#303030; }
+
+#sub07_back {width:200px; height:74px; float: inherit; margin-left:570px; margin-top:0px; background-color:#303030; position: relative;}
+
+
+
+
+/*서브 8페이지*/
+
+#sub08_contents_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub08_contents_wrap
+
+#sub08_contents {width: 100%; height:1800px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+
+
+#sub08_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
+    background-color:; display: flex; background-color:#303030;}
+
+#sub08_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-right:0px; margin-top: 70px; margin-bottom:50px; background-color:#303030;}
+
+
+
+/*전후 버튼*/
+
+#sub08_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub08_next {width:325px; height:74px; float: inherit; margin-left:790px; margin-right:0px; margin-top:50px; background-color:#303030;}
+
+
+#sub08_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: -74px; background-color:; display: flex; background-color:#303030; }
+
+#sub08_back {width:200px; height:74px; float: inherit; margin-left:540px; margin-top:0px; background-color:#303030; position: relative;}
+
+
+
+
+/*서브 9페이지*/
+
+#sub09_contents_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub09_contents_wrap
+
+#sub09_contents {width: 100%; height:300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+
+
+
+/*동영상 1*/
+
+#sub09_contents2_wrap {width:100%; overflow: hidden; margin: 0 auto;  display: flex;
+    align-items: left; justify-content: space-between; background-color:#303030; justify-content: center; }
+}
+
+#sub09_contents2 { float: left; margin-left:0px;  justify-content: center;  position: absolute; }
+
+
+/*동영상 2*/
+
+#sub09_contents3_wrap {width:100%; overflow: hidden; margin: 0 auto;  display: flex;
+    align-items: left; justify-content: space-between; background-color:#303030; justify-content: center; padding-top: 100px; }
+}
+
+#sub09_contents3 { float: left; margin-left:0px; background-color:#303030; justify-content: center; margin-bottom: x; position: absolute; }
+
+
+/*브이로그 칸*/
+
+#sub09_contents4_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:#303030; display: flex;
+}
+
+#sub09_contents4_wrap
+
+#sub09_contents4 {width: 100%; height:500px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:200px; text-align: ; background-color:#303030; }
+
+
+/*vlog 동영상*/
+
+#sub09_contents5_wrap {width:100%; overflow: hidden; margin: 0 auto;  display: flex;
+    align-items: left; justify-content: space-between; background-color:#303030; justify-content: center; padding-top: 10px; }
+}
+
+#sub09_contents5 { float: left; margin-left:0px; background-color:#303030; justify-content: center; margin-bottom: px; position: absolute; }
+
+
+#sub09_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub09_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-right:0px; margin-top: 70px; margin-bottom:50px; background-color:#303030;}
+
+
+
+/*전후 버튼*/
+
+#sub09_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: 0px; background-color:; display: flex; background-color:#303030;}
+
+#sub09_next {width:325px; height:74px; float: inherit; margin-left:850px; margin-right:0px; margin-top:150px; background-color:#303030;}
+
+
+#sub09_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+   margin-top: -74px; background-color:; display: flex; background-color:#303030; }
+
+#sub09_back {width:200px; height:74px; float: inherit; margin-left:550px; margin-top:0px; background-color:#303030; position: relative;}

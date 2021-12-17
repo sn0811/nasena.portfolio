@@ -152,7 +152,7 @@ section{
   justify-content: center;
   align-items: center;
   margin-left: -15px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; text-align: center;
 }
 
 
@@ -175,7 +175,7 @@ section{
   justify-content: center;
   align-items: center;
   margin-left: 0px;
-    margin-bottom: 440px;
+    margin-bottom: 440px; text-align: center;
 }
 
 #sub3_contents_wrap {width:213px; position: absolute; z-index: 300;}
@@ -245,7 +245,7 @@ margin-top:40px;
   justify-content: center;
   align-items: center;
   margin-left: -20px;
-    margin-bottom: 450px;
+    margin-bottom: 450px; text-align: center;
 }
 
 #sub4_contents_wrap {width:213px; position: absolute; z-index: 300; }
@@ -303,24 +303,27 @@ margin-top:40px;
 
 #sub05_contents_wrap
 
-#sub05_contents {width: 100%; height:2300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+#sub05_contents {width: 100%; height:2300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: center;  }
 
 
 #sub05_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
    margin-top: 0px; background-color:; display: flex; background-color:#303030;}
 
-#sub05_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top: 100px; margin-bottom:50px; background-color:#;}
+#sub05_X {width:38px; height:38px; float: right; margin: 0 auto; float: center; margin-top: 100px; margin-bottom:50px; background-color:#;}
 
 
 /*전후 버튼*/
 
-#sub05_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
-   margin-bottom: 0px; background-color:; display: flex; background-color:#303030;}
+#sub05_nav_wrap {width: 100%; height: 74px; background-color:#303030; }
+#sub05_nav_wrap #sub05_nav {width: 1550px; height: 74px; margin: 0 auto;}
+
+#sub05_next_wrap { overflow: hidden; margin: 0 auto;
+   margin-bottom: 0px; display: flex; background-color:#303030;}
 
 #sub05_next {width:325px; height:74px; float: inherit; margin-left:850px; margin-right:0px; margin-bottom:0px; background-color:#;}
 
 
-#sub05_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+#sub05_back_wrap {overflow: hidden; margin: 0 auto;
    margin-top: -74px; background-color:; display: flex; background-color:#303030; }
 
 #sub05_back {width:290px; height:74px; float: inherit; margin-left:570px; margin-bottom:0px; background-color:#; position: relative;}
@@ -336,23 +339,26 @@ margin-top:40px;
 
 #sub06_contents_wrap
 
-#sub06_contents {width: 100%; height:3900px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+#sub06_contents {width: 100%; height:3900px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: center;  }
 
 #sub06_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
    margin-top: 0px; background-color:; display: flex; background-color:#303030;}
 
-#sub06_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top:100px; margin-bottom:50px; background-color:#303030;}
+#sub06_X {width:38px; height:38px; float: right; margin: 0 auto; float: center; margin-top:100px; margin-bottom:50px; background-color:#303030;}
 
 
 /*전후 버튼*/
 
-#sub06_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+#sub06_nav_wrap {width: 100%; height: 74px; background-color:#303030; }
+#sub06_nav_wrap #sub06_nav {width: 1550px; height: 74px; margin: 0 auto;}
+
+#sub06_next_wrap { overflow: hidden; margin: 0 auto;
    paddig-top: 5000px; background-color:; display: flex; background-color:#303030;}
 
 #sub06_next {width:325px; height:74px; float: inherit; margin-left:810px; margin-right:0px; margin-bottom:0px; background-color:#303030;}
 
 
-#sub06_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+#sub06_back_wrap {overflow: hidden; margin: 0 auto;
    margin-top: -74px; background-color:; display: flex; background-color:#303030; }
 
 #sub06_back {width:290px; height:74px; float: inherit; margin-left:400px; margin-bottom:70px; background-color:#303030; position: relative;}
@@ -365,14 +371,14 @@ margin-top:40px;
    margin-top: 0px; background-color:#303030; display: flex;
 }
 
-#sub07_contents {width: 100%; height:1550px; float: right; float: right; margin-top:50px; text-align: ;  }
+#sub07_contents {width: 100%; height:1550px; float: right; float: right; margin-top:50px; text-align: center;  }
 
 
 #sub07_contents2_wrap {width:100%; overflow: hidden; margin: 0 auto;
    margin-top: 0px; background-color:#303030; display: flex;
 }
 
-#sub07_contents2 {width: 100%; height:170px; float: right; float: right; margin-top:50px; text-align: ;  }
+#sub07_contents2 {width: 100%; height:170px; float: right; float: right; margin-top:50px; text-align: center;  }
 
 
 
@@ -384,24 +390,27 @@ margin-top:40px;
     align-items: left; justify-content: space-between; background-color:#303030; justify-content: center; }
 }
 
-#sub07_contents3 { float: left; margin-left:0px; background-color:#303030; justify-content: center; margin-bottom: 150px; }
+#sub07_contents3 { float: left; margin-left:0px; background-color:#303030; justify-content: center; margin-bottom: 150px; text-align: center;}
 
 /*x버튼*/
 
 #sub07_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
-   margin-top: 0px; background-color:; display: flex; background-color:#303030;  }
+   margin-top: 150px; background-color:; display: flex; background-color:#303030;}
 
-#sub07_X {width:38px; height:38px; float: right; margin-left:750px; float: center; margin-top:70px; margin-bottom:50px; background-color:#303030;}
+#sub07_X {width:38px; height:38px; float: right; margin: 0 auto; float: center; margin-top:100px; margin-bottom:50px; background-color:#303030;}
 
 /*전후 버튼*/
 
-#sub07_next_wrap {width:100%; overflow: hidden; margin: 0 auto;
+#sub07_nav_wrap {width: 100%; height: 74px; background-color:#303030; }
+#sub07_nav_wrap #sub07_nav {width: 1550px; height: 74px; margin: 0 auto;}
+
+#sub07_next_wrap {overflow: hidden; margin: 0 auto;
    margin-top: 0px; background-color:; display: flex; background-color:#303030;}
 
 #sub07_next {width:325px; height:74px; float: inherit; margin-left:790px; margin-right:0px; margin-top:150px; background-color:#303030;}
 
 
-#sub07_back_wrap {width:100%; overflow: hidden; margin: 0 auto;
+#sub07_back_wrap {overflow: hidden; margin: 0 auto;
    margin-top: -74px; background-color:; display: flex; background-color:#303030; }
 
 #sub07_back {width:200px; height:74px; float: inherit; margin-left:570px; margin-top:0px; background-color:#303030; position: relative;}
@@ -417,7 +426,7 @@ margin-top:40px;
 
 #sub08_contents_wrap
 
-#sub08_contents {width: 100%; height:1800px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+#sub08_contents {width: 100%; height:1800px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: center;  }
 
 
 #sub08_X_wrap {width:100%; overflow: hidden; margin: 0 auto;
@@ -451,7 +460,7 @@ margin-top:40px;
 
 #sub09_contents_wrap
 
-#sub09_contents {width: 100%; height:300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align: ;  }
+#sub09_contents {width: 100%; height:300px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:50px; text-align:center;  }
 
 
 
@@ -481,7 +490,7 @@ margin-top:40px;
 
 #sub09_contents4_wrap
 
-#sub09_contents4 {width: 100%; height:500px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:200px; text-align: ; background-color:#303030; }
+#sub09_contents4 {width: 100%; height:500px; float: right; margin-left:0px; float: right; margin-right:0px; margin-top:200px; text-align: center; background-color:#303030; }
 
 
 /*vlog 동영상*/
